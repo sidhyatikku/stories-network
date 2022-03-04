@@ -1,0 +1,69 @@
+@import url("https://use.typekit.net/seo0cch.css");
+
+html {
+  font-family: 'bely', sans-serif;
+  font-weight: 400;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  font-size: 1.75rem;
+  color: white;
+  cursor: e-resize;
+}
+
+#top-image {
+  background-image: linear-gradient(#383838, black);
+  margin-left: 0 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -100;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: grab;
+}
+
+i {
+  color: black;
+  font-size: 3rem;
+}
+
+h1 {
+  font-family: 'bely-display', sans-serif;
+  font-size: 7rem;
+  margin: 0;
+}
+
+h3 {
+  color: darkgray;
+  margin: 0;
+  font-size: 3rem;
+}
+
+#intro_txt {
+  margin-left: 2vw;
+  margin-bottom: 5vh;
+  z-index: 100;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pg_num {
+  margin-left: 2vw;
+}
+
+.pg_num_main {
+  margin-left: 2vw;
+  text-decoration: underline;  
+}

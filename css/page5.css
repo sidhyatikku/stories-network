@@ -1,0 +1,84 @@
+@import url("https://use.typekit.net/seo0cch.css");
+
+html {
+  font-family: 'bely', sans-serif;
+  font-weight: 400;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+  font-size: 1.75rem;
+  color: #242424;
+  cursor: help;
+}
+
+::selection {
+  color: yellow;
+  background: pink;
+}
+
+#top-image {
+  margin-left: 0 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -100;
+  height: 100%;
+  animation: bgGradient 7s ease-in-out infinite;
+}
+
+@keyframes bgGradient {
+  0%   {background-image: linear-gradient(15deg, red, black);}
+  25%  {background-image: linear-gradient(30deg, yellow, orange);}
+  50%  {background-image: linear-gradient(45deg, pink, purple);}
+  75%  {background-image: linear-gradient(60deg, green, cyan);}
+  100% {background-image: linear-gradient(90deg, blue, purple);}
+}
+
+@keyframes txtColor {
+  0%     {color: yellow;}
+  25%    {color: red;}
+  50%    {color: #00FF1A;}
+  75%    {color: #FF00CC;}
+  100%   {color: red;}
+}
+
+i {
+  color: black;
+  font-size: 3rem;
+}
+
+#intro_txt {
+  margin-left: 2vw;
+  margin-bottom: 4vh;
+  z-index: 100;
+  animation: txtColor 6.7s linear infinite;
+}
+
+a {
+  text-decoration: none;
+  animation: txtColor 6.7s linear infinite;
+  cursor: grab;
+}
+
+a:hover {
+  animation: txtColor 1.3s linear infinite;
+  animation: bgGradient 1s ease-in-out infinite;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pg_num {
+  margin-left: 2vw;
+}
+
+.pg_num_main {
+  margin-left: 2vw;
+  text-decoration: underline;
+}

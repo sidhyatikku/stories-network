@@ -1,0 +1,61 @@
+@import url("https://use.typekit.net/seo0cch.css");
+
+html {
+  font-family: 'bely', sans-serif;
+  font-weight: 400;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 5vh;
+  color: black;
+}
+
+@keyframes typeIntro {
+  0% {opacity: 0;}
+  100% {opacity: 100;}
+}
+
+i {
+  color: black;
+  font-size: 3rem;
+}
+
+h1 {
+  font-family: 'bely-display', sans-serif;
+  font-size: 7rem;
+  margin: 0;
+  opacity: 0;
+  animation: typeIntro 3s linear;
+  animation-fill-mode: forwards !important;
+}
+
+h3 {
+  color: darkgray;
+  margin: 0;
+  opacity: 0;
+  font-size: 3rem;
+  animation-delay: 1s !important;
+  animation-fill-mode: forwards !important;
+  animation: typeIntro 2s linear;
+}
+
+.intro_txt {
+  position: fixed;
+  margin-left: 2vw;
+  margin-bottom: 5vh;
+  bottom: 0;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.nxt {
+  font-family: monospace;
+  text-align: right;
+  opacity: 0;
+  animation-delay: 3s !important;
+  animation-fill-mode: forwards !important;
+  animation: typeIntro 3s linear;
+}

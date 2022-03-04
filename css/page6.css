@@ -1,0 +1,73 @@
+@import url("https://use.typekit.net/seo0cch.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+html {
+  font-family: 'bely', sans-serif;
+  font-weight: 400;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+  font-size: 1.75rem;
+  color: white;
+  background-color: black;
+}
+
+::selection {
+  color: yellow;
+  background: pink;
+}
+
+
+i {
+  color: black;
+  font-size: 3rem;
+}
+
+#intro_txt {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  margin-top: 120vh;
+  font-size: 6rem;
+  margin-left: 2vw;
+  margin-bottom: 4vh;
+  z-index: 100;
+  animation: txtTop 5s ease-in-out;
+  animation-fill-mode: forwards !important;
+}
+
+.home_nav {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75rem;
+  margin-top: 25vh;
+  opacity: 0;
+  animation: homeDel 3s linear;
+  animation-delay: 6s !important;
+  animation-fill-mode: forwards !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+}
+
+@keyframes txtTop {
+
+  from {
+    opacity: 0;
+    margin-top: 120vh;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 30vh;
+  }
+
+}
+
+@keyframes homeDel {
+  from {opacity: 0;}
+  to {opacity:100;}
+}
