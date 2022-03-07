@@ -82,3 +82,24 @@ footer {
   margin-left: 2vw;
   text-decoration: underline;
 }
+
+
+@media only screen and (max-width: 850px) and (orientation: portrait) {
+
+  html {
+    font-size: 1rem;
+    color: yellow;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+
+  .pg_num {
+    margin-left: 0;
+  }
+
+  .pg_num_main {
+    margin-left: 0;
+  }
+}

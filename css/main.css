@@ -24,6 +24,7 @@ h1 {
   font-size: 7rem;
   margin: 0;
   opacity: 0;
+  animation-delay: 1s !important;
   animation: typeIntro 3s linear;
   animation-fill-mode: forwards !important;
 }
@@ -33,7 +34,7 @@ h3 {
   margin: 0;
   opacity: 0;
   font-size: 3rem;
-  animation-delay: 1s !important;
+  animation-delay: 2s !important;
   animation-fill-mode: forwards !important;
   animation: typeIntro 2s linear;
 }
@@ -55,7 +56,18 @@ a {
   font-family: monospace;
   text-align: right;
   opacity: 0;
-  animation-delay: 3s !important;
+  animation-delay: 2.75s !important;
   animation-fill-mode: forwards !important;
   animation: typeIntro 3s linear;
+}
+
+@media only screen and (max-width: 850px) and (orientation: portrait) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
 }
